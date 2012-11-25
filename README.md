@@ -1,18 +1,8 @@
 # [Sinatra AssetPack](http://ricostacruz.com/sinatra-assetpack)
-#### Asset packer for Sinatra
 
-This is *the* most convenient way to set up your CSS/JS (and images) in a 
-[Sinatra](http://sinatrarb.com) app. Seriously. No need for crappy routes to 
-render Sass or whatever. No-siree!
-
-1. Drop your assets into `/app` like so (you can configure directories don't worry):
-   * JavaScript/CoffeeScript files in `/app/js`
-   * CSS/Sass/Less/CSS files in `/app/css`
-   * Images into `/app/images`
-3. Add `register Sinatra::AssetPack` and set up options to your app (see below).
-4. Use `<%= js :app %>` and `<%= css :application %>` to your layouts. Use these instead of
-   messy *script* and *link* tags.
-5. BOOM! You're in business baby!
+> [Sinatra](http://sinatrarb.com) extension for complete assets management.
+This is *the* most convenient way to set up your CSS/JS (and images). Seriously.
+No need for crappy routes to  render Sass or whatever. No-siree!
 
 Installation
 ------------
@@ -33,6 +23,12 @@ gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
 
 Setup
 -----
+
+Drop your assets into an asset folder like `/app` (default) :
+
+ * JavaScript/CoffeeScript files in `/app/js`
+ * CSS/Sass/Less/CSS files in `/app/css`
+ * Images into `/app/images`
 
 Install the plugin and add some options. (Feel free to omit the *Optional* 
     items, they're listed here for posterity):
