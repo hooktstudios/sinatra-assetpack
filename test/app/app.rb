@@ -52,6 +52,10 @@ class Main < Sinatra::Base
       '/css/scre*.css',
       '/css/screen.css'
     ]
+
+    css :stylus, '/css/stylus.css', [
+      '/css/screen_stylus.css'
+    ]
   }
 
   get '/index.html' do

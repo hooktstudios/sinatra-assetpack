@@ -15,6 +15,6 @@ class OrderTest < UnitTest
   test "order" do
     paths = App.assets.packages['a.css'].paths
     assert_equal paths.sort,
-      [ "/css/screen.css", "/css/sqwishable.css", "/css/style.css", "/css/stylus.css", "/css/js2c.css" ].sort
+      [ "/css/screen.css", "/css/sqwishable.css", "/css/style.css", "/css/screen_stylus.css", "/css/js2c.css" ].sort
   end
 end

@@ -6,6 +6,7 @@ class OptionsTest < UnitTest
     assert @formats['sass'] == 'css'
     assert @formats['scss'] == 'css'
     assert @formats['coffee'] == 'js'
+    assert @formats['styl'] == 'css'
   end
 end
 
