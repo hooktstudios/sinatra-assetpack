@@ -1,7 +1,6 @@
 require 'contest'
 require 'jsmin'
 require 'tilt'
-require 'stylus'
 require 'rack/test'
 require 'yaml'
 require 'mocha/setup'
