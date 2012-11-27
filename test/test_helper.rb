@@ -4,6 +4,7 @@ require 'tilt'
 require 'rack/test'
 require 'yaml'
 require 'mocha/setup'
+require 'awesome_print'
 
 require File.expand_path('../app/app.rb', __FILE__)
 
