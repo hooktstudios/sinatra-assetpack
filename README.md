@@ -5,6 +5,7 @@ This is *the* most convenient way to set up your CSS/JS (and images). Seriously.
 No need for crappy routes to  render Sass or whatever. No-siree!
 
 [![Build Status](https://travis-ci.org/hooktstudios/sinatra-assetpack.png)](https://travis-ci.org/hooktstudios/sinatra-assetpack)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/hooktstudios/sinatra-assetpack)
 
 Installation
 ------------
